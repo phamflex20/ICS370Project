@@ -14,11 +14,15 @@
             text-align: center;
         }
 
-        h1 {
-            border-top: 1px solid black;
+        .healthy-meal-plans {
+            margin-bottom: 20px;
         }
 
-        h1:hover {
+        .meal-title {
+            margin-bottom: 20px;
+        }
+
+        .meal-title:hover {
             cursor: pointer;
         }
 
@@ -38,7 +42,7 @@
             max-width: 50%;
         }
 
-        img {
+        .menu-image {
             width: 100%;
         }
 
@@ -58,8 +62,8 @@
                 <nav>
                     <nav>
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Meal Plans</a></li>
+                            <li><a href="Workoutpage.htm">Home</a></li>
+                            <li><a href="MealPlan.php">Meal Plans</a></li>
                             <li><a href="">Bulletin Board Page</a></li>
                             <li><a href="">Account</a></li>
 
@@ -72,7 +76,7 @@
         </div>
         <div class="row">
             <div class=".col-2">
-                <h1>Healthy Meal Plans</h1>
+                <h1 class="title healthy-meal-plans">Healthy Meal Plans</h1>
                 <p>Your Nutrionist prepare you a meal plan for your healthy journey!</p>
             </div>
         </div>
@@ -90,13 +94,13 @@
         }
     </script>
 
-    <h1 onclick="toggleMeals('sunday')">SUNDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('sunday')">SUNDAY</h2>
     <div id="sunday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>HEAVENLY HASH</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/Breakfast1.png" />
+                <img class="menu-image" src="images/Breakfast1.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -130,7 +134,7 @@
         <h3>MULTIGRAIN BLENDER CREPES</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/Lunch1.png" />
+                <img class="menu-image" src="images/Lunch1.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -165,7 +169,7 @@
         <h3>SALMON IN PARCHMENT</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/salmon1.png" />
+                <img class="menu-image" src="images/salmon1.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -206,13 +210,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('monday')">MONDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('monday')">MONDAY</h2>
     <div id="monday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>VEGGIES SCRAMBLE</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/VeggieScramble.png" />
+                <img class="menu-image" src="images/VeggieScramble.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -267,7 +271,7 @@
         <h3>CHOPPED SALAD</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/Salad2.png" />
+                <img class="menu-image" src="images/Salad2.png" />
             </div>
             <div class="ingredients">
 
@@ -300,7 +304,7 @@
         <h3>ONE POTATO AND SAUSAGE SUPPER</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/PotatoSausageSupper.png" />
+                <img class="menu-image" src="images/PotatoSausageSupper.png" />
             </div>
             <div class="ingredients">
 
@@ -332,13 +336,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('tuesday')">TUESDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('tuesday')">TUESDAY</h2>
     <div id="tuesday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>BREAKFAST SANDWICH</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/BreakfastSandwich.png" />
+                <img class="menu-image" src="images/BreakfastSandwich.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -374,7 +378,7 @@
         <h3>KALE SALAD</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/KaleSalad3.png" />
+                <img class="menu-image" src="images/KaleSalad3.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -408,7 +412,7 @@
         <h3>EASY BAKED FISH</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/EasyBakedFish.png" />
+                <img class="menu-image" src="images/EasyBakedFish.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -444,13 +448,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('wednesday')">WEDNESDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('wednesday')">WEDNESDAY</h2>
     <div id="wednesday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>Good Morning Granola</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/Granola.png" />
+                <img class="menu-image" src="images/Granola.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -481,7 +485,7 @@
         <h3>BROCOLI SALAD</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/BrocoliSalad4.png" />
+                <img class="menu-image" src="images/BrocoliSalad4.png" />
             </div>
             <div class="ingredients">
                 Ingredients
@@ -522,7 +526,7 @@
         <h3>EASY BAKED FISH</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/EasyBakedFish.png" />
+                <img class="menu-image" src="images/EasyBakedFish.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -546,13 +550,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('thursday')">THURSDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('thursday')">THURSDAY</h2>
     <div id="thursday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>Everything Bagel Avocado Toast</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/EverythingBagelAvocadoToast.png" />
+                <img class="menu-image" src="images/EverythingBagelAvocadoToast.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -584,7 +588,7 @@
         <h3>Brussels Sprouts Salad</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/BrusselsSproutsSalad5.png" />
+                <img class="menu-image" src="images/BrusselsSproutsSalad5.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -621,7 +625,7 @@
         <h3>EASY BAKED FISH</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/EasyBakedFish.png" />
+                <img class="menu-image" src="images/EasyBakedFish.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -681,13 +685,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('friday')">FRIDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('friday')">FRIDAY</h2>
     <div id="friday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>OVERNIGHT CROCKPOT OATMEAL</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/OvernightOatmeal.png" />
+                <img class="menu-image" src="images/OvernightOatmeal.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -709,7 +713,7 @@
         <h3>HEARTBEAT VEGETABLE BURGERS</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/VegetablesBurger.png" />
+                <img class="menu-image" src="images/VegetablesBurger.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -744,7 +748,7 @@
         <h3>HEARTBEAT VEGETABLE BURGERS</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/HoneyDijonChicken.png" />
+                <img class="menu-image" src="images/HoneyDijonChicken.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -777,13 +781,13 @@
         </div>
     </div>
 
-    <h1 onclick="toggleMeals('saturday')">SATURDAY</h1>
+    <h2 class="title meal-title" onclick="toggleMeals('saturday')">SATURDAY</h2>
     <div id="saturday" class="day-of-week">
         <h2>Breakfast</h2>
         <h3>Strawberries Oatmeal</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/StrawberriesOatmeal.png" />
+                <img class="menu-image" src="images/StrawberriesOatmeal.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -809,7 +813,7 @@
         <h3>DETOX SALAD</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/DetoxSalad.png" />
+                <img class="menu-image" src="images/DetoxSalad.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
@@ -839,7 +843,7 @@
         <h3>Black Bean Tacos</h3>
         <div class="meal">
             <div class="image">
-                <img src="images/BlackBeanTacos.png" />
+                <img class="menu-image" src="images/BlackBeanTacos.png" />
             </div>
             <div class="ingredients">
                 Ingredients:
